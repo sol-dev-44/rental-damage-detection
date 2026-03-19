@@ -142,7 +142,7 @@ Route handlers raise `HTTPException` with appropriate status codes. Services rai
 
 ### Local environment
 
-- **Database:** Supabase (free tier), project ref `janvywhvxxijwmkmwbla`, direct connection on port 5432
+- **Database:** Supabase (free tier), direct connection on port 5432
 - **Backend:** Python 3.13 venv at `backend/.venv`, runs on port 8000
 - **Frontend:** Node 24, runs on port 3000 (not 5173)
 - **Config:** `.env` lives at project root, `config.py` loads it via `env_file="../.env"`
